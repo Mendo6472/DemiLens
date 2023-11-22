@@ -1,0 +1,67 @@
+.banner {
+  background-color: #303030;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.sidePanel {
+  width: 250px;
+  height: calc(100% - 50px);
+  background-color: #424242;
+  position: fixed;
+  top: 50px;
+  left: -250px;
+  transition: left 0.3s ease;
+  z-index: 999;
+}
+
+.sidePanelContent {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sidePanelContent button {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.username {
+  color: #fff;
+  font-size: 20px;
+  margin-top: auto;
+}
+
+.togglePanelButton {
+  background-color: #61dafb;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.welcomeText {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.homeButton {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+}

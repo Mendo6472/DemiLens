@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+  db:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      
+  python:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.django
+    command: 'python manage.py runserver 0.0.0.0:8000'
+    ports:
+      - 8000:8000
+    depends_on:
+      - db
+      
+  react:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.react
+    command: 'npm run start'
+    ports:
+      - 9000:9000
+    depends_on:
+      - python

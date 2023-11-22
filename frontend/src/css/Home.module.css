@@ -1,0 +1,32 @@
+.body {
+    padding-top: 50px; /* Adjust padding as needed for the banner */
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+  
+  .buttonContainer button {
+    width: 200px; /* Adjust the width as needed */
+    padding: 10px;
+    margin-bottom: 10px; /* Adjust margin as needed */
+    background-color: #61dafb;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .buttonContainer button:hover {
+    background-color: #4fa3d1;
+  }

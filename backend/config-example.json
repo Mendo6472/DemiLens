@@ -1,0 +1,22 @@
+{
+    "django-key":"Django key",
+    "type": "google account info",
+    "project_id": "google account info",
+    "private_key_id": "google account info",
+    "private_key": "google account info",
+    "client_email": "google account info",
+    "client_id": "google account info",
+    "auth_uri": "google account info",
+    "token_uri": "google account info",
+    "auth_provider_x509_cert_url": "google account info",
+    "client_x509_cert_url": "google account info",
+    "universe_domain": "google account info",
+    "dataset_id": "bigquery-public-data.google_trends (The name of the dataset on the bigquery)",
+    "top_terms_id": "international_top_terms (The name of the table on the bigquery)",
+    "top_rising_terms_id": "international_top_rising_terms (The name of the table on the bigquery)", 
+    "database_name" : "postgres (The name of the database on the docker compose)",
+    "database_user" : "postgres (The user of the database on the docker compose))",
+    "database_host" : "db (The name of the database service on the docker compose)",
+    "database_password" : "postgres (The password of the database on the docker compose)",
+    "database_port" : "5432 (The port of the database)"
+} 

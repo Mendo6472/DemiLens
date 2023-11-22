@@ -1,0 +1,16 @@
+.body {
+  padding-top: 50px; /* Adjust padding as needed for the banner */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Add specific styles for the query section */
+.query-section {
+  margin-top: 20px;
+}
+
+/* Add specific styles for the comments section */
+.comments-section {
+  margin-top: 20px;
+}

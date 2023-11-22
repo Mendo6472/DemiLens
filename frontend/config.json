@@ -1,0 +1,18 @@
+{
+    "proxy": "http://localhost:8000",
+    "countries" : {
+        "FI" : "Finland",
+        "NG" : "Nigeria",
+        "DE" : "Germany",
+        "VN" : "Vietnam",
+        "PT" : "Portugal",
+        "CA" : "Canada",
+        "NO" : "Norway",
+        "CZ" : "Czech Republic",
+        "RO" : "Romania",
+        "CO" : "Colombia",
+        "EG" : "Egypt",
+        "BR" : "Brazil",
+        "NZ" : "New Zealand"
+    }
+}
